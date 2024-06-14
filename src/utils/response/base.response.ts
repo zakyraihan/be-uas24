@@ -17,7 +17,7 @@ class BaseResponse {
     pageSize: number,
   ): ResponsePagination {
     return {
-      status: 'Success',
+      status: 'succes',
       message: message,
       data: data,
       pagination: {
